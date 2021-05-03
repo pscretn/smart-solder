@@ -1,5 +1,5 @@
-const unsigned long interval=30000; //wait time start counting ,when there is absence of touch input 
-const unsigned long ldint=1000; // delay for led
+const unsigned long interval=1800000; //wait time start counting ,when there is absence of touch input , change the wait time according to delay required , here delay is 30 minutes
+const unsigned long ldint=1000; // delay for led indicator
 unsigned long previoustime=0;
 unsigned long prev=0;
 int solder=0;
