@@ -31,7 +31,7 @@ if (touchRead(T6)<40 ){  //touchRead() function is used measure sensor value whe
    digitalWrite(13,LOW);
     solder=0;
 }
-//conditional statement for indicator led
+//conditional statement for indicator  led
 unsigned long ct=millis();
  if ((ct - prev >= ldint)and(currenttime - previoustime >= interval)){
   if(led == 0){
